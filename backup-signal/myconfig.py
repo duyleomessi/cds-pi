@@ -1,0 +1,19 @@
+STADIUM = "R1" # "Green" G1,R1,G2,R2
+ROUND  = '1' # 1 or 2
+
+class SERVO_SIGNAL_1:
+    SERVO_PIN = 16
+    LEFT = 9.5
+    RIGHT = 5
+    STRAIGH = 7.5
+    STRAIGH_LEFT=8.5
+    STRAIGH_RIGH=6.5
+    
+class SERVO_SIGNAL_2:
+    SERVO_PIN = 12
+    LEFT = 9.5 
+    RIGHT = 5
+    STRAIGH = 7.5
+    STRAIGH_LEFT=8.5
+    STRAIGH_RIGH=6.5
+
