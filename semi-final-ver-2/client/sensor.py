@@ -33,6 +33,14 @@ pwmStart.start(servoStart.STOP_ANGLE)
 
 
 def setAngle(pwm, servo, angle):
+    ''' Điều khiển servo 
+    
+    Arguments:
+        pwm string -- pwm của biển bắt đầu trận đấu
+        servo int -- servo muốn quay
+        angle string -- góc quay
+    '''
+
     # duty = angle / 18 + 2
     GPIO.output(servo.SERVO_PIN, True)
     pwm.ChangeDutyCycle(angle)
